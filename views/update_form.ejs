@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <title>Tasin Bazar</title>
+</head>
+<body class="body">
+    <section id="header">
+        <a href="/index.html"><img src="https://clipartcraft.com/images/amazon-logo-transparent-font-2.png" alt="image" class="logo"></a> 
+        
+        <div>
+            <ul id="navbar">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="shop.html">Shop</a></li>
+               <li><a href="blog.html">Blog</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="contact.html">Contact</a></li>
+               <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+               <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="details">
+        <h3>Update item</h3>
+    </section>
+    
+    <section id="form">
+        <div class="container1">
+            <form action="" method="post" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Product To Be Updated</legend>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="price">Price:</label>
+                        <input type="number" id="price" name="price" required>
+                    </div>
+                    <legend>New Details</legend>
+                    <div>
+                        <label for="new_name">Name:</label>
+                        <input type="text" id="new_name" name="new_name" required>
+                    </div>
+                    <div>
+                        <label for="brand">Brand:</label>
+                        <input type="text" id="brand" name="brand" required>
+                    </div>
+                    <div>
+                        <label for="price">Price: </label>
+                        <input type="number" id="new_price" name="new_price" step="0.01" required>
+                    </div>
+                    <div>
+                        <label for="category">Category: </label>
+                        <select id="category" name="category">
+                            <option value="shirt">shirt</option>
+                            <option value="t-shirt">t-shirt</option>
+                            <option value="pant">pant</option>
+                            <option value="jacket">jacket</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="gender">Gender: </label>
+                        <select id="gender" name="gender">
+                            <option value="Men">Men</option>
+                            <option value="Women">Women</option>
+                            <option value="kids">kids</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label for="photo">photo:</label>
+                        <input type="file" id="photo" name="photo" required>
+                    </div>
+                    <div>
+                        <input type="submit" value="submit">
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <script src="/script/script.js"></script>
+</body>
+</html>

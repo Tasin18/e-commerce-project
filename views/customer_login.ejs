@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <title>Tasin Bazar</title>
+</head>
+<body class="body">
+    <section id="header">
+        <a href="#"><img src="https://clipartcraft.com/images/amazon-logo-transparent-font-2.png" alt="image" class="logo"></a> 
+        
+        <div>
+            <ul id="navbar">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="shop.html">Shop</a></li>
+               <li><a href="blog.html">Blog</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="contact.html">Contact</a></li>
+               <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+               <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="customer">
+        <div><a href="login.html"><div>Admin Login</div></a></div>
+    </section>
+    
+    <section id="login">
+        <div class="container">
+            <h2>Customer Login</h2>
+            <form method="post">
+                <div class="form-group">
+                    <input type="text" id="email" name='email' placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <div class="form-group">
+                    <button class="login-button" type="submit">Login</button>   
+                </div>
+                <div class="form-group">
+                    <a href="/cust_forget_pass">Forgotten password?</a>
+                    <br>
+                    <div class="line"></div>
+                    <a id="two" class="login-button" href="create_account_cust.html">Create new account</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
